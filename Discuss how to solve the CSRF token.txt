@@ -1,0 +1,8 @@
+1- To stay secure, use Token-Based methods like
+-Bearer tokens
+-JWT
+-OAuth tokens
+
+2- Avoid Using Cookies for APIs
+If you use cookies for authentication in APIs, your API is vulnerable to CSRF. In that case, you must include CSRF tokens and verify them manually, but this is not recommended for APIs.
+

@@ -1,0 +1,19 @@
+meta {
+  name: create post
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://127.0.0.1:3000/posts
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title": "Sunsets and Serenity 🌅",
+    "body": "Nothing beats ending the day with a view like this. Grateful for the little moments that bring peace. #sunsetvibes #naturetherapy",
+    "user_id": 1
+  }
+}
